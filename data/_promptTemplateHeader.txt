@@ -1,0 +1,27 @@
+From the following Baidu ocr result text, produce and return only the valid json format without any comment:
+
+Base on rules:
+
+- `file_type` is either "receipt", "invoice" or "payroll".
+- `created_by_merchant_name`:
+  * the company who created or issued this financial document, name without quote, usually the first company you encounter from top to bottom, or appear before `bill_to_merchant_name` or as logo
+  * if this is a `file_type`='receipt', its value will be same with `merchant_name`
+  * if this is a `file_type`='invoice', you can tell if it is issued by me if my company name appear in bank account name
+- `bill_to_merchant_name`:
+  * the company who receiving this financial document, name without quote
+  * if `file_type`='invoice', use the company name that is bill to
+  * if `file_type`='receipt' or 'payroll', this can be empty (no value)
+- `file_date` is the document/receipt/invoice date must be in YYYY-MM-DD format.
+- `file_number` is the document number/receipt code/invoice number.
+- `currency`:
+  * must be in standard ISO 4217 3 digit format, such as "HKD", "MYR", "RMB", "SGD"...
+  * If currency is unknown, please guess it from the store location/address, eg: "HKD" for hongkong.
+- `total_amount` is the pricing and should be number only.
+- `payment_method` must select from this enum list: "Cash", "Check" or "CreditCard"; if unknown, default to "Cash".
+- `note` is optional, can be empty.
+- Items list must be fully return.
+- Items' name may include foreign langauge character.
+- Items' amount is the pricing and should be number only.
+- Items' category must select the most suitable one
+
+Baidu ocr result:

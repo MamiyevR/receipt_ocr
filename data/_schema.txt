@@ -1,0 +1,23 @@
+{
+    merchant_name,
+    merchant_address,
+    created_by_merchant_name,
+    bill_to_merchant_name,
+    file_number,
+    file_date,
+    file_category,
+    file_type,
+    file_items:
+    [
+        {
+            name,
+            quantity,
+            amount,
+            category
+        }
+    ],
+    payment_method,
+    total_amount,
+    currency,
+    note
+}

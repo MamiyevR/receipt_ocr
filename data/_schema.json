@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "properties": {
+    "merchant_name": { "type": "string" },
+    "merchant_address": { "type": "string" },
+    "created_by_merchant_name": { "type": "string" },
+    "bill_to_merchant_name": { "type": "string" },
+    "file_number": { "type": "string" },
+    "file_date": { "type": "string" },
+    "file_category": {
+      "type": "string",
+      "enum": ["in_flow", "out_flow"]
+    },
+    "file_type": {
+      "type": "string",
+      "enum": ["receipt", "invoice", "payroll"]
+    },
+    "file_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "quantity": { "type": "number" },
+          "amount": { "type": "number" },
+          "category": {
+            "type": "string",
+            "enum": []
+          }
+        },
+        "required": ["name", "amount", "category"]
+      }
+    },
+    "payment_method": { "type": "string" },
+    "total_amount": { "type": "number" },
+    "currency": { "type": "string" },
+    "note": { "type": "string" }
+  },
+  "required": [
+    "created_by_merchant_name",
+    "file_type",
+    "file_date",
+    "total_amount",
+    "currency"
+  ]
+}

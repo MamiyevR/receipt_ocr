@@ -1,0 +1,8 @@
+flask[async]~=3.0.0
+requests~=2.31.0
+gunicorn~=21.2.0
+google-cloud-logging~=3.8.0
+psutil~=5.9.6
+aiohttp~=3.8.6
+pypdf2~=3.0.1
+jellyfish~=1.0.1

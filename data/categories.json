@@ -1,0 +1,177 @@
+{
+    "receipt": {
+        "food": [
+            "Entertainment Meals::10",
+            "Promotional Meals::22",
+            "Travel Meals::29"
+        ],
+        "beverage": [
+            "Entertainment Meals::10",
+            "Promotional Meals::22",
+            "Travel Meals::29",
+            "Other Business Expenses::17"
+        ],
+        "advertising": [
+            "Advertising/Promotional::1"
+        ],
+        "software": [
+            "Software::42"
+        ],
+        "printing & printing materials": [
+            "Printing::39"
+        ],
+        "telephone": [
+            "Telephone::43"
+        ],
+        "flight ticket": [
+            "Travel::28"
+        ],
+        "taxi": [
+            "Travel::28"
+        ],
+        "hotel accommodation": [
+            "Travel::28"
+        ],
+        "gift": [
+            "Client gifts::33"
+        ],
+        "manufacturing material": [
+            "Supplies & Materials::26"
+        ],
+        "raw material": [
+            "Supplies & Materials::26"
+        ],
+        "entertainment": [
+            "Entertainment::9"
+        ],
+        "office equipment": [
+            "Other Business Expenses::17"
+        ],
+        "cleaning product": [
+            "Other Business Expenses::17"
+        ],
+        "stationary": [
+            "Other Business Expenses::17"
+        ],
+        "snack": [
+            "Other Business Expenses::17"
+        ],
+        "service": [
+            "Other Miscellaneous Service Cost::18"
+        ]
+    },
+    "invoice": {
+        "food": [
+            "Entertainment Meals::10",
+            "Promotional Meals::22",
+            "Travel Meals::29"
+        ],
+        "beverage": [
+            "Entertainment Meals::10",
+            "Promotional Meals::22",
+            "Travel Meals::29"
+        ],
+        "advertising": [
+            "Advertising/Promotional::1"
+        ],
+        "software": [
+            "Software::42"
+        ],
+        "printing & printing materials": [
+            "Printing::39"
+        ],
+        "telephone": [
+            "Telephone::43"
+        ],
+        "flight ticket": [
+            "Travel::28"
+        ],
+        "taxi": [
+            "Travel::28"
+        ],
+        "hotel accommodation": [
+            "Travel::28"
+        ],
+        "gift": [
+            "Client gifts::33"
+        ],
+        "manufacturing material": [
+            "Supplies & Materials::26"
+        ],
+        "raw material": [
+            "Supplies & Materials::26"
+        ],
+        "entertainment": [
+            "Entertainment::9"
+        ],
+        "service": [
+            "Other Miscellaneous Service Cost::18"
+        ],
+        "vehicle": [
+            "Auto::2",
+            "Vehicle::45",
+            "Vehicle Loan Interest::46",
+            "Vehicle Repairs::47"
+        ],
+        "legal and professional fee": [
+            "Legal & Professional Fees::15"
+        ],
+        "training": [
+            "Training::44"
+        ],
+        "licenses and permits": [
+            "Licenses and permits::37"
+        ],
+        "dues and subscriptions": [
+            "Dues & subscriptions::8"
+        ],
+        "repair and maintenance": [
+            "Repair & Maintenance::24"
+        ],
+        "utilities": [
+            "Utilities::31"
+        ],
+        "moving expense": [
+            "Moving expenses::38"
+        ],
+        "shipping": [
+            "Shipping, Freight & Delivery::25"
+        ],
+        "freight": [
+            "Shipping, Freight & Delivery::25"
+        ],
+        "equipment rental": [
+            "Equipment Rental::11"
+        ],
+        "rent": [
+            "Rent::40",
+            "Rent or Lease of Buildings::23"
+        ],
+        "insurance": [
+            "Insurance::13"
+        ]
+    },
+    "payroll": {
+        "cost of labour": [
+            "Cost of Labor::7"
+        ],
+        "payroll expenses": [
+            "Payroll Expenses::19"
+        ],
+        "payroll tax expenses": [
+            "Payroll Tax Expenses::20"
+        ],
+        "payroll wage expenses": [
+            "Payroll Wage Expenses::21"
+        ],
+        "salaries and other compensation": [
+            "Salaries and other compensation::41"
+        ],
+        "employee benefit programs": [
+            "Employee benefit programs::35"
+        ],
+        "employee loans": [
+            "Employee loans::36"
+        ]
+    }
+}
